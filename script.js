@@ -18,6 +18,7 @@ gerarValorAletorio = () => {
     return Math.floor(Math.random() * 671);
 }
 
+
 pegarPersonagem = () => {
     let numeroAleatorio = gerarValorAletorio();
     return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
