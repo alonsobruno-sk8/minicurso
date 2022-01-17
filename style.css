@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     width: 100%;
 }
+
 main {
     align-items: center;
     display: flex;
@@ -17,11 +18,13 @@ main {
     justify-content: center;
     position: relative;
 }
+
 main > section img {
     height: 300px;
     margin: 15px 0;
     width: 300px;
 }
+
 main > section button {
     background-color: #00BFFF;
     border: none;
@@ -34,4 +37,10 @@ main > section button {
     line-height: 15px;
     padding: 9px 23px;
     text-transform: uppercase;
+}
+
+#detalhes-container {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
 }
